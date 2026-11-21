@@ -1,3 +1,4 @@
+id = "trailgrid_maps"
 kind = "native-mod"
 name = "trail"
 summary = "Explore with a configurable minimap, a persistent world map, waypoint groups, and entity radar."
@@ -14,7 +15,7 @@ Based on [Minimap, Worldmap and waypoints reworked](https://github.com/Gurov08ru
 authors = ["daniliammo", "Gurov08ruS"]
 owners = ["groznen95"]
 owner_ids = [273570573]
-source = "https://github.com/groznen95/TailgridMaps"
+source = "https://github.com/groznen95/trailgrid"
 license = "GPL-3.0-only"
 icon = "icons/trailgrid_maps.png"
 screenshots = [
