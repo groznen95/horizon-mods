@@ -7,7 +7,7 @@ Explore with a minimap and a world map that remembers visited terrain. Find wayp
 - **M** opens the world map, **N** opens the waypoint list, **B** adds a waypoint, and **Y** opens map settings.
 - Filter waypoints by dimension, share waypoint links, and enable automatic death waypoints. Import tools read supported map, settings, and waypoint formats from existing Xaero data.
 - English is the default. The interface also follows supported game languages.
-- Requires Horizon Nightly 2026-11-20 (`0a875da`) and Minecraft Java Edition 26.3.
+- Requires Minecraft Java Edition 26.3 and the matching Horizon Nightly. Use 0.1.1 for November 21 (`8f83e5c`) or 0.1.0 for November 20 (`0a875da`).
 
 Based on [Minimap, Worldmap and waypoints reworked](https://github.com/Gurov08ruS/Minimap-Worldmap-and-waypoints-reworked) by daniliammo and Gurov08ruS.
 """
@@ -23,6 +23,14 @@ screenshots = [
 ]
 categories = ["utility", "adventure"]
 tags = ["map", "minimap", "navigation", "waypoints"]
+
+[[versions]]
+version = "0.1.1"
+published = "2026-11-21"
+game = "26.3"
+file = "trailgrid_maps-0.1.1.hmod"
+sha256 = "7739fb61259e1bb8717c60e33e2d6233ca7549e0522b1e130781cd87791bb670"
+changelog = "Builds against Horizon Nightly 2026-11-21 (8f83e5c) and uses the trail display name in the installed mod. Keeps the same map, waypoint and settings data directory."
 
 [[versions]]
 version = "0.1.0"
