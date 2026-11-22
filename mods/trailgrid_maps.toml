@@ -9,9 +9,9 @@ Explore with a minimap and a world map that remembers visited terrain. Find wayp
 - Filter waypoints by dimension, share waypoint links, and enable automatic death waypoints. Import tools read supported map, settings, and waypoint formats from existing Xaero data.
 - On servers, the map can select a different terrain cache and waypoint list when the server reports a distinct world. Choose or bind a map manually in **M → Server worlds**.
 - Right-click the world map to build it from the generated chunks of a local save or a copy of a server save. Mob icons use textured 3D models.
-- The client /deaths command shows recent map death waypoints and takes precedence over a server command of the same name in 0.1.10.
+- In 0.1.11, **F2** edits the selected waypoint and **/mapdeaths** shows recent death waypoints.
 - English is the default. The interface also follows supported game languages.
-- Requires Minecraft Java Edition 26.3 and the matching Horizon Nightly. Use 0.1.10 for November 21 (`8f83e5c`) or 0.1.0 for November 20 (`0a875da`).
+- Requires Minecraft Java Edition 26.3 and the matching Horizon Nightly. Use 0.1.11 for November 22 (`2b77287`), 0.1.10 for November 21 (`8f83e5c`) or 0.1.0 for November 20 (`0a875da`).
 
 Based on [Minimap, Worldmap and waypoints reworked](https://github.com/Gurov08ruS/Minimap-Worldmap-and-waypoints-reworked) by daniliammo and Gurov08ruS.
 """
@@ -27,6 +27,14 @@ screenshots = [
 ]
 categories = ["utility", "adventure"]
 tags = ["map", "minimap", "navigation", "waypoints"]
+
+[[versions]]
+version = "0.1.11"
+published = "2026-11-22"
+game = "26.3"
+file = "trailgrid_maps-0.1.11.hmod"
+sha256 = "b4af157c2f34f1bfd8afee8ef719af0a9acfb7bdd9c2db757dd11b3dd0c15945"
+changelog = "Builds on Horizon Nightly 2026-11-22 (2b77287). Adapts saved map terrain to the new far-terrain API, adds F2 waypoint editing and improved text controls, and moves local death history to /mapdeaths."
 
 [[versions]]
 version = "0.1.10"
