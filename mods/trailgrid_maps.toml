@@ -5,15 +5,17 @@ summary = "Explore with a configurable minimap, a persistent world map, waypoint
 description = """
 Explore with a minimap and a world map that remembers visited terrain. Find waypoints by name, organize them into groups, and jump to their map locations from the waypoint list.
 
-- **M** opens the world map, **N** opens the waypoint list, **K** adds a waypoint, and **Y** opens map settings.
+- **M** opens the world map, **N** opens the waypoint list, **K** adds a waypoint, and **Y** opens minimap settings. The waypoint panel opens from the bottom-right corner of the world map.
 - Filter waypoints by dimension, share waypoint links, and enable automatic death waypoints. Import tools read supported map, settings, and waypoint formats from existing Xaero data.
 - On servers, the map can select a different terrain cache and waypoint list when the server reports a distinct world. Choose or bind a map manually in **M → Server worlds**.
+- Right-click the world map to build it from the generated chunks of a local save or a copy of a server save. Mob icons use textured 3D models.
+- The client /deaths command shows recent map death waypoints and takes precedence over a server command of the same name in 0.1.10.
 - English is the default. The interface also follows supported game languages.
-- Requires Minecraft Java Edition 26.3 and the matching Horizon Nightly. Use 0.1.7 for November 21 (`8f83e5c`) or 0.1.0 for November 20 (`0a875da`).
+- Requires Minecraft Java Edition 26.3 and the matching Horizon Nightly. Use 0.1.10 for November 21 (`8f83e5c`) or 0.1.0 for November 20 (`0a875da`).
 
 Based on [Minimap, Worldmap and waypoints reworked](https://github.com/Gurov08ruS/Minimap-Worldmap-and-waypoints-reworked) by daniliammo and Gurov08ruS.
 """
-authors = ["Kadir (maintainer)"]
+authors = ["Kadir (maintainer)", "daniliammo (upstream)", "Gurov08ruS (upstream)"]
 owners = ["groznen95"]
 owner_ids = [273570573]
 source = "https://github.com/groznen95/trailgrid"
@@ -25,6 +27,14 @@ screenshots = [
 ]
 categories = ["utility", "adventure"]
 tags = ["map", "minimap", "navigation", "waypoints"]
+
+[[versions]]
+version = "0.1.10"
+published = "2026-11-22"
+game = "26.3"
+file = "trailgrid_maps-0.1.10.hmod"
+sha256 = "b3017a7d4ca8e3cbaf9e10b1541537c41bfbbf1d33cde1d034d4346a98de9d3b"
+changelog = "Redesigned map tools, waypoint list and settings. Adds textured 3D radar icons, building maps from world saves, and configurable PNG exports. Keeps existing waypoint and cache data. Pinned to Horizon Nightly 2026-11-21 (8f83e5c)."
 
 [[versions]]
 version = "0.1.7"
