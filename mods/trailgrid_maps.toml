@@ -11,7 +11,7 @@ Explore with a minimap and a world map that remembers visited terrain. Find wayp
 - Right-click the world map to build it from the generated chunks of a local save or a copy of a server save. Mob icons use textured 3D models.
 - In 0.1.11, **F2** edits the selected waypoint and **/mapdeaths** shows recent death waypoints.
 - English is the default. The interface also follows supported game languages.
-- Requires Minecraft Java Edition 26.3 and the matching Horizon Nightly. Use 0.1.11 for November 22 (`2b77287`), 0.1.10 for November 21 (`8f83e5c`) or 0.1.0 for November 20 (`0a875da`).
+- Requires Minecraft Java Edition 26.3 and the matching Horizon Nightly. Use 0.1.13 for November 22 (`2b77287`), 0.1.10 for November 21 (`8f83e5c`) or 0.1.0 for November 20 (`0a875da`).
 
 Based on [Minimap, Worldmap and waypoints reworked](https://github.com/Gurov08ruS/Minimap-Worldmap-and-waypoints-reworked) by daniliammo and Gurov08ruS.
 """
@@ -27,6 +27,14 @@ screenshots = [
 ]
 categories = ["utility", "adventure"]
 tags = ["map", "minimap", "navigation", "waypoints"]
+
+[[versions]]
+version = "0.1.13"
+published = "2026-11-22"
+game = "26.3"
+file = "trailgrid_maps-0.1.13.hmod"
+sha256 = "c53d3832280c135ac5aa23a2e826efc3ca81bf135da8d47e1e19b8f6babb856c"
+changelog = "Search every settings tab with Ctrl+F or Command+F. At larger GUI scales, use Share to copy, paste, or open a waypoint link in chat. Keeps your existing map cache and waypoints. Requires Horizon Nightly 2026-11-22 (2b77287)."
 
 [[versions]]
 version = "0.1.11"
